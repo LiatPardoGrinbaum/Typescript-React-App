@@ -9,7 +9,8 @@ form {
 }
 
 label,
-input {
+input,
+textarea {
   display: block;
   width: 100%;
 }
@@ -18,13 +19,15 @@ label {
   font-weight: bold;
 }
 
-input {
+input,
+textarea {
   font: inherit;
   border: 1px solid #ccc;
   padding: 0.25rem;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
   outline: none;
   border-color: #50005a;
   background-color: #e2cee4;
